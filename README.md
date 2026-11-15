@@ -18,5 +18,5 @@
 
 ### How to View
 Click the link below to experience the live web application:
-👉 **[View Nostra E-Commerce Live](https://your-live-link-here.com)**
+👉 **https://vaishalivaishi528-cell.github.io/Nostra-Project/**
 
