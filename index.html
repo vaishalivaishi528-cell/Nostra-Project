@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra - Fashion & Lifestyle E-Commerce</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <!-- Top Offer Bar -->
+    <div class="offer-bar" id="offer-bar">
+        <p>Sign Up and <b>GET 20% OFF</b> for your first Order</p>
+        <i class="fa-solid fa-xmark" id="offer-close" title="Close"></i>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <h1 class="logo" data-page="home">Nostra</h1>
+        <div class="navbar-links">
+            <p><a href="#home" class="nav-link active" data-page="home">Home</a></p>
+            <p><a href="#collections" class="nav-link" data-page="collections" data-filter="new">New Arrival</a></p>
+            <p><a href="#most-wanted" class="nav-link" data-page="home" data-scroll="most-wanted">Most Wanted</a></p>
+            <p><a href="#collections" class="nav-link" data-page="collections">Collections</a></p>
+            <p><a href="#contact" class="nav-link" data-page="contact">Contact Us</a></p>
+        </div>
+        <div class="navbar-menu-toggle" id="side-navbar-activate">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Mobile Side Navbar -->
+    <div class="side-navbar" id="side-navbar">
+        <p class="side-navbar-close">
+            <i class="fa-solid fa-xmark" id="side-navbar-close"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p><a href="#home" data-page="home">Home</a></p>
+            <p><a href="#collections" data-page="collections" data-filter="new">New Arrival</a></p>
+            <p><a href="#most-wanted" class="nav-link" data-page="home" data-scroll="most-wanted">Most Wanted</a></p>
+            <p><a href="#collections" data-page="collections">Collections</a></p>
+            <p><a href="#contact" data-page="contact">Contact Us</a></p>
+        </div>
+    </div>
+
+    <!-- ==================== HOME VIEW ==================== -->
+    <main id="home-view">
+        <div class="container">
+            <!-- Hero Slider -->
+            <div class="slider">
+                <div class="slider-left-button" id="slider-left-activate">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+
+                <div class="slider-content">
+                    <h1>Level up your style with our</h1>
+                    <h4>Summer Collections</h4>
+                    <button class="btn-primary" data-page="collections">
+                        Shop Now <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <div class="slider-image-container" id="slider-images">
+                    <img class="slider-image" src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=1600&q=80" alt="Summer Fashion 1">
+                    <img class="slider-image" src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=1600&q=80" alt="Summer Fashion 2">
+                    <img class="slider-image" src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1600&q=80" alt="Summer Fashion 3">
+                </div>
+
+                <div class="slider-right-button" id="slider-right-activate">
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+
+            <!-- Brands Section -->
+            <section class="brands-section">
+                <h2 class="section-title">Brands</h2>
+                <div class="brands">
+                    <div class="brands-item">
+                        <i class="fa-solid fa-paw brands-icon"></i>
+                        <p>Puma</p>
+                    </div>
+                    <div class="brands-item">
+                        <i class="fa-solid fa-bolt brands-icon"></i>
+                        <p>Adidas</p>
+                    </div>
+                    <div class="brands-item">
+                        <i class="fa-regular fa-gem brands-icon"></i>
+                        <p>Simple</p>
+                    </div>
+                    <div class="brands-item">
+                        <i class="fa-solid fa-leaf brands-icon"></i>
+                        <p>Leaves</p>
+                    </div>
+                    <div class="brands-item">
+                        <i class="fa-brands fa-behance brands-icon"></i>
+                        <p>Behance</p>
+                    </div>
+                    <div class="brands-item">
+                        <i class="fa-brands fa-twitch brands-icon"></i>
+                        <p>Twitch</p>
+                    </div>
+                    <div class="brands-item">
+                        <i class="fa-solid fa-crown brands-icon"></i>
+                        <p>Zara</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Service / Customer Experiences -->
+            <section class="service">
+                <div class="service-container-1">
+                    <div>
+                        <h2>We Provide Best</h2>
+                        <h2>Customer Experiences</h2>
+                    </div>
+                    <div>
+                        <p>|| We ensure that our customer have the best shopping experience</p>
+                    </div>
+                </div>
+
+                <div class="service-container-2">
+                    <div class="service-card">
+                        <i class="fa-regular fa-circle-check"></i>
+                        <h4>Original Products</h4>
+                        <p>100% authentic designer apparel curated directly from global fashion houses.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fa-regular fa-face-smile"></i>
+                        <h4>Satisfaction Guarantee</h4>
+                        <p>Hassle-free 30-day returns and instant exchanges if the fit isn't right.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fa-solid fa-broom"></i>
+                        <h4>New Arrival Everyday</h4>
+                        <p>Fresh seasonal drops added daily so your wardrobe stays ahead of trends.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fa-solid fa-truck-fast"></i>
+                        <h4>Fast &amp; Free Shipping</h4>
+                        <p>Complimentary express doorstep delivery on all orders across the country.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- New Arrivals -->
+            <section id="new-arrival" class="products-section">
+                <h2 class="section-title">New Arrivals</h2>
+                <div class="new-arrival">
+                    <div class="new-arrival-container">
+                        <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80" alt="Floral Summer Shirt">
+                        <div class="overlay"></div>
+                        <button data-page="collections" data-filter="new">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    <div class="new-arrival-container">
+                        <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80" alt="Casual Streetwear">
+                        <div class="overlay"></div>
+                        <button data-page="collections" data-filter="new">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    <div class="new-arrival-container">
+                        <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=600&q=80" alt="Lightweight Jacket">
+                        <div class="overlay"></div>
+                        <button data-page="collections" data-filter="new">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    <div class="new-arrival-container">
+                        <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=600&q=80" alt="Classic Cotton Tee">
+                        <div class="overlay"></div>
+                        <button data-page="collections" data-filter="new">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Most Wanted -->
+            <section id="most-wanted" class="products-section">
+                <h2 class="section-title">Most Wanted</h2>
+                <div class="most-wanted" id="most-wanted-list">
+                    <!-- Rendered dynamically via JS -->
+                </div>
+            </section>
+
+            <!-- Limited Offer Banner -->
+            <section class="limited-offer">
+                <div class="limited-offer-img">
+                    <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=800&q=80" alt="Limited Offer">
+                </div>
+                <div class="limited-offer-text">
+                    <h2>Limited Offer</h2>
+                    <h4>35% OFF on this for the first 30 Customers</h4>
+                    <button data-page="collections">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </section>
+
+            <!-- Newsletter -->
+            <section class="news">
+                <h2>Join our News Letter</h2>
+                <p>Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+                <form class="news-form" id="newsletter-form">
+                    <input type="email" id="newsletter-email" class="search" placeholder="Enter your email address..." required>
+                    <button type="submit">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+                </form>
+                <p id="newsletter-msg" class="feedback-msg"></p>
+            </section>
+        </div>
+    </main>
+
+    <!-- ==================== COLLECTIONS VIEW ==================== -->
+    <main id="collections-view" class="hidden">
+        <div class="container">
+            <div class="divide-section">
+                <!-- Filter Sidebar -->
+                <aside class="filter-section">
+                    <div class="filter-group">
+                        <h3>Occasion</h3>
+                        <label><input type="checkbox" name="tags" value="summer"> Summer</label>
+                        <label><input type="checkbox" name="tags" value="party"> Party</label>
+                        <label><input type="checkbox" name="tags" value="beach"> Beach</label>
+                    </div>
+
+                    <div class="filter-group">
+                        <h3>Colors</h3>
+                        <label><input type="checkbox" name="tags" value="red"> Red</label>
+                        <label><input type="checkbox" name="tags" value="blue"> Blue</label>
+                        <label><input type="checkbox" name="tags" value="white"> White</label>
+                        <label><input type="checkbox" name="tags" value="green"> Green</label>
+                    </div>
+
+                    <div class="filter-group">
+                        <h3>Arrivals</h3>
+                        <label><input type="checkbox" name="tags" value="new"> New</label>
+                        <label><input type="checkbox" name="tags" value="old"> Old</label>
+                    </div>
+                </aside>
+
+                <!-- Product Grid & Search -->
+                <div class="product-section">
+                    <div class="navbar-search">
+                        <input type="search" id="product-search" placeholder="Search products (e.g. Shirt, Summer, Blue)...">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <div class="products" id="collections-grid">
+                        <!-- Rendered dynamically via JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ==================== CONTACT VIEW ==================== -->
+    <main id="contact-view" class="hidden">
+        <div class="container">
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form id="contact-form">
+                    <label for="c-name">Name:</label>
+                    <input type="text" id="c-name" required placeholder="Your full name">
+
+                    <label for="c-email">Email:</label>
+                    <input type="email" id="c-email" required placeholder="you@example.com">
+
+                    <label for="c-message">Message:</label>
+                    <textarea id="c-message" rows="5" required placeholder="How can we help you?"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+                <p id="contact-msg" class="feedback-msg"></p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Nostra</h2>
+                <p>The Standard chunk of fashion apparel used since the 1500s is reproduced below for those interested in timeless style.</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
+        </div>
+        <p class="subtitle">&copy; 2026 Nostra.com</p>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
